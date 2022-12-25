@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    fast();
+   
  
     long long num, t;
     cin >> num >> t;

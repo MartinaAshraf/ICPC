@@ -1,3 +1,57 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <math.h>
+#include<iomanip>
+using namespace std;
+int main() {
+int A, B ,C ;
+cin>> A>>B >>C;
+if (C<=B&&C<=A)
+{
+    cout <<C<<" ";
+    if (B<=A)
+    {
+    cout<<A;
+    }
+    else 
+     cout<<B;
+}
+
+else if (B<=C&&B<=A)
+{
+    cout <<B<<" ";
+    if (C<=A)
+    {
+    cout<<A;
+    }
+    else 
+     cout<<C;
+}
+
+else if (A<=C&&A<=B)
+{
+    cout <<A<<" ";
+    if (C<=B)
+    {
+    cout<<B;
+    }
+    else 
+     cout<<C;
+}
+else cout << A<<" "<<B;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #include<iostream>
 #include<cstring>
